@@ -1,0 +1,363 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: border-box;
+}
+
+header{
+    height: 100vw;
+    height: 100vh;
+    background-image: url("header-bg.jpg");
+    background-position: bottom ;
+    background-size: cover;
+}
+
+.navbar{
+    height: 50px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    transition: all 0.3s ease;
+}
+
+.nav-logo{
+    height: 50px;
+    width: 400px;
+    padding-left: 15px;
+    margin-top: 20px;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.nav-logo:hover{
+    transform: scale(1.1);
+}
+
+.nav-logo-text{
+    color: whitesmoke;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+
+/* Navbar Menu  */
+.nav-menu{
+    height: 40px;
+    font-weight: 550;
+    margin-top: 20px;
+}
+
+li{
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: inline-flex;
+    margin-right: 25px; 
+}
+
+.nav-a{
+    color: whitesmoke;
+    text-decoration: none;
+    padding: 8px 20px;
+}
+
+/* Menu Hover */
+a:hover{
+    border-radius: 20px; 
+    background-color: #fc036b;
+    color: black;
+}
+
+
+/* Body 1  */
+
+.page-body{
+    text-align: center;
+    margin-top: 300px;
+}
+
+.text1{
+    color: whitesmoke;
+    font-size: 50px;
+    font-weight: 650;
+}
+
+/* Line Highlight */
+.page-body-line{
+    height: 4px;
+    width: 250px;
+    background-color: #fc036b;
+    text-align: center;
+    margin-top: 5px;
+    margin-left: 660px;
+}
+
+.text2{
+    padding-top: 30px;
+    font-size: 35px;
+    font-weight: 500;
+    color: whitesmoke;
+}
+
+button{
+color: whitesmoke;
+height: 40px;
+width: 150px;
+font-size: 18px;
+font-weight: 600;
+background-color: #fc036b;
+border: none;
+border-radius: 20px;
+margin-top: 20px;
+}
+
+button:hover{
+    border-radius: 20px; 
+    background-color: whitesmoke;
+    color: black;
+    border-radius: 20px;
+}
+
+/* box 2 */
+.event-header{
+    margin-top: 10px;
+}
+
+.event-text{
+    text-align: center;
+}
+
+.text3{
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.Event-body-line{
+    height: 4px;
+    width: 170px;
+    background-color: #fc036b;
+    text-align: center;
+    margin-top: 5px;
+    margin-left: 660px;
+}
+
+/* box 3 */
+
+.event-body{
+    height: 600px;
+    width: 100%;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.event-body-box1{
+    height: 400px;
+    width: 40%;
+    background-image: url(img1.jpg);
+    background-size: cover;
+}
+
+.event-body-text{
+    text-align: center;
+    margin-top: 410px;
+}
+
+.event-body-box2{
+    height: 400px;
+    width: 40%;
+    background-image: url(img2.jpg);
+    background-size: cover;
+    margin-left: 20px;
+}
+
+.button2{
+    color: whitesmoke;
+    height: 40px;
+    width: 150px;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: #fc036b;
+    border: none;
+    border-radius: 20px;
+    margin-top: 25px;
+}
+
+.text4{
+    padding-top: 1px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.text5{
+    padding-top: 8px;
+    text-align: left;
+}
+
+/* box 4 */
+
+.world-body{
+    height: 100vh;
+    width: 100%;
+    background-image: url(bg.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.world-header{
+    height: 550px;
+    width: 55%;
+    text-align: center;
+}
+
+.text6{
+    color: whitesmoke;
+    padding-top: 250px;
+    font-size: 60px;
+    padding-left: 100px;
+}
+
+.world-header-line{
+    height: 4px;
+    width: 120px;
+    background-color: #fc036b;
+    text-align: center;
+    margin-top: 2px;
+    margin-left: 400px;
+}
+
+.text7{
+    color: whitesmoke;
+    padding-top: 20px;
+    padding-left: 60px;
+    padding-right: 10px;
+    text-align: left;
+}
+
+.button3{
+    color: whitesmoke;
+    height: 40px;
+    width: 150px;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: #fc036b;
+    border: none;
+    border-radius: 20px;
+    margin-top: 25px;
+    margin-left: 85px;
+}
+
+/* box5 */
+
+.tour-body{
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.tour-header1{
+    padding-top: 80px;
+    height: 420px;
+    width: 40%;
+}
+
+.text8{
+    text-align: left;
+    font-size: 55px;
+    font-weight: 600;
+}
+
+.tour-body-line{
+    height: 4px;
+    width: 140px;
+    background-color: #fc036b;
+    text-align: center;
+    margin-top: 2px;
+}
+
+.text9{
+    font-size: 18px;
+    padding-top: 30px;
+}
+
+.button4{
+    color: whitesmoke;
+    height: 40px;
+    width: 150px;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: #fc036b;
+    border: none;
+    border-radius: 20px;
+    margin-top: 30px;
+    margin-left: 230px;
+}
+
+
+.tour-header2{
+    height: 500px;
+    width: 44%;
+    margin-left: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.box{
+    margin-block: 10px;
+    margin-left: 12px;
+    height: 259px;
+    width: 48%;
+    margin-top: 10px;
+    margin-right:1px;
+}
+
+.box1{
+    background-image: url(img3.jpg);
+    background-size: cover;
+}
+
+.box2{
+    background-image: url(img4.jpg);
+    background-size: cover;
+}
+
+.box3{
+    background-image: url(img5.jpg);
+    background-size: cover;
+}
+
+.box4{
+    background-image: url(img6.jpg);
+    background-size: cover;
+}
+
+.text10{
+    font-size: 20px;
+    color: whitesmoke;
+}
+
+.text11{
+    font-size: 25px;
+    color: whitesmoke;
+}
+
+footer{
+    margin-top: 120px;
+    height: 100px;
+    width: 100%;
+    background-color: #484872;
+    text-align: center;
+    padding-top: 18px;
+}
+
+
+/* Animations  */
+
+.box{
+    transition: transform 0.3s ease;
+}
+
+.box:hover{
+    transform: scale(1.1);
+}
